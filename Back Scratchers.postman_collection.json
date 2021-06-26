@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "1897794a-f584-474e-8132-ab1ec04c0379",
+		"name": "Back Scratchers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Msj test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"mensaje de prueba\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/message/echo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"message",
+						"echo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/backscratchers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"backscratchers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_BY_ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/backscratchers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"backscratchers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_BY_NAME",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/backscratchers/name/JAVA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"backscratchers",
+						"name",
+						"JAVA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"Gold handle and fancy emeralds\",\r\n  \"name\": \"Glitz and Golffd\",\r\n  \"price\": 4343.20,\r\n  \"sizes\": [ \r\n    \"XL\",\"L\",\"S\"\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/backscratchers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"backscratchers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"Gold handle and fancy emeralds\",\r\n  \"name\": \"Glitz and Golffd\",\r\n  \"price\": 4343.20,\r\n  \"sizes\": [ \r\n    \"XL\"\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/backscratchers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"backscratchers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/backscratchers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"backscratchers",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
