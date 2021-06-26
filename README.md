@@ -5,20 +5,20 @@ SOLUTION
 ---------------------
 
 Please note that you may have to edit the .\src\main\resources\application.yml file in order
-to properly set up Postgres DB access.
+to properly set up PostgreSQL DB access.
 
 Tech Stack
 - Java 11
 - Spring Boot
 - Maven
-- Postgres
+- PostgreSQL
 - Swagger
 - Jackson
 - Jacoco
 
-In order to run the app it is possible to use mvn commands (Postgres or H2 DB options)
+In order to run the app it is possible to use mvn commands (PostgreSQL or H2 DB options)
    
-For Postgres:
+For PostgreSQL:
 
     mvn spring-boot:run -Dspring-boot.run.profiles=local
 
