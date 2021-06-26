@@ -5,10 +5,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.validation.constraints.NotNull;
-import java.util.Arrays;
-import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

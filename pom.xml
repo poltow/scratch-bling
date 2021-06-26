@@ -124,9 +124,9 @@
 							<excludes>
 								<exclude>/com/itscout/*</exclude>
 								<exclude>/com/itscout/app/api/*</exclude>
+								<exclude>/com/itscout/domain/model/BackScratcher*</exclude>
+								<exclude>/com/itscout/domain/model/Message*</exclude>
 								<exclude>/com/itscout/app/rest/MessageController*</exclude>
-								<exclude>/com/itscout/BackScratcher*</exclude>
-								<exclude>/com/itscout/Message*</exclude>
 								<exclude>/com/itscout/domain/service/impl/ProcessMessageServiceImpl*</exclude>
 							</excludes>
 						</configuration>

@@ -7,6 +7,8 @@ public class Size {
 
 	private static List<String> sizes = Arrays.asList(new String[] { "S", "M", "L", "XL" });
 
+	private Size(){}
+
 	public static boolean isValid(String value) {
 		return sizes.contains(value);
 	}
