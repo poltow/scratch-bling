@@ -1,17 +1,17 @@
 package com.itscout.domain.model;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.util.Arrays;
+import java.util.List;
+
+import javax.validation.constraints.NotNull;
+
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import javax.validation.constraints.NotNull;
-import java.util.Arrays;
-import java.util.List;
-
-import static com.itscout.domain.model.Size.isValid;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringRunner.class)
 public class BackScratcherTest {
