@@ -16,7 +16,7 @@ Tech Stack
 - Jackson
 - Jacoco
 
-In order to run the app it is possible to use mvn commands (PostgreSQL or H2 DB options)
+In order to run the app locally it is possible to use mvn commands (PostgreSQL or H2 DB options)
    
 For PostgreSQL:
 
@@ -45,3 +45,10 @@ To get API information and test all the calls, open this url in a browser:
     http://localhost:8080/swagger-ui.html
 
 To use postman to test the project, please import the scratch-bling.postman_collection.json file to postman
+
+In order to use AWS EC2 instance, please use the URL below:
+
+	ec2-3-143-223-80.us-east-2.compute.amazonaws.com
+
+	Ex: http://ec2-3-143-223-80.us-east-2.compute.amazonaws.com:8080/swagger-ui.html
+	
