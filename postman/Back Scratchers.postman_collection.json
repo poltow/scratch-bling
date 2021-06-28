@@ -31,10 +31,10 @@
 					"raw": "{\r\n    \"message\": \"mensaje de prueba\"\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/message/echo",
+					"raw": "http://{{host}}:8080/message/echo",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
 					"port": "8080",
 					"path": [
@@ -51,10 +51,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/backscratchers/",
+					"raw": "http://{{host}}:8080/backscratchers/",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
 					"port": "8080",
 					"path": [
@@ -71,10 +71,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/backscratchers/1",
+					"raw": "http://{{host}}:8080/backscratchers/1",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
 					"port": "8080",
 					"path": [
@@ -91,10 +91,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/backscratchers/name/JAVA",
+					"raw": "http://{{host}}:8080/backscratchers/name/JAVA",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
 					"port": "8080",
 					"path": [
@@ -124,13 +124,13 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"description\": \"Gold handle and fancy emeralds\",\r\n  \"name\": \"Glitz and Golffd\",\r\n  \"price\": 4343.20,\r\n  \"sizes\": [ \r\n    \"XL\",\"L\",\"S\"\r\n  ]\r\n}"
+					"raw": "{\r\n  \"description\": \"The Blinger\",\r\n  \"name\": \"Diamonds\",\r\n  \"price\": 343.00,\r\n  \"sizes\": [ \r\n    \"L\"\r\n  ]\r\n}\r\n"
 				},
 				"url": {
-					"raw": "http://localhost:8080/backscratchers/",
+					"raw": "http://{{host}}:8080/backscratchers/",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
 					"port": "8080",
 					"path": [
@@ -162,10 +162,10 @@
 					"raw": "{\r\n  \"description\": \"Gold handle and fancy emeralds\",\r\n  \"name\": \"Glitz and Golffd\",\r\n  \"price\": 4343.20,\r\n  \"sizes\": [ \r\n    \"XL\"\r\n  ]\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8080/backscratchers/1",
+					"raw": "http://{{host}}:8080/backscratchers/1",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
 					"port": "8080",
 					"path": [
@@ -182,10 +182,10 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/backscratchers/1",
+					"raw": "http://{{host}}:8080/backscratchers/1",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{host}}"
 					],
 					"port": "8080",
 					"path": [
